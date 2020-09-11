@@ -1,7 +1,5 @@
 #define Thermistor_Pin A0
 #define R1_fixed 10000.0
-//define our function prototype
-float readTempC(const int TPin, const float R1);
 void setup() 
 {
   //setup the serial port for debug info...
